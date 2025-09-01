@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePlatform - Code in Your Browser</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <svg class="terminal-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="4,17 10,11 4,5"></polyline>
+                        <line x1="12" y1="19" x2="20" y2="19"></line>
+                    </svg>
+                    <span class="logo-text">CodeCrack</span>
+                </div>
+                <div class="nav-buttons">
+                    <button class="btn btn-ghost">
+                        <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        GitHub Source
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <div class="badge">
+                        <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon>
+                        </svg>
+                        Free & Open Source
+                    </div>
+                    <h1 class="hero-title">
+                        Code and learn 
+                        <span class="hero-title-accent">using AI</span>
+                    </h1>
+                    <p class="hero-description">
+                        A perfect coding platform to learn data structures and algorithms without a fear of competition
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-large">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="5,3 19,12 5,21"></polygon>
+                            </svg>
+                            Start Coding Now
+                        </button>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">10K+</div>
+                            <div class="stat-label">Projects Created</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">5K+</div>
+                            <div class="stat-label">Active Users</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">0ms</div>
+                            <div class="stat-label">Setup Time</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Code Preview -->
+                <div class="hero-right">
+                    <div class="code-editor">
+                        <div class="editor-header">
+                            <div class="editor-title">Live Editor</div>
+                            <div class="window-controls">
+                                <div class="control red"></div>
+                                <div class="control yellow"></div>
+                                <div class="control green"></div>
+                            </div>
+                        </div>
+                        <div class="editor-content">
+                            <div class="code-tabs">
+                                <div class="tab active" data-tab="java">Java</div>
+                                <div class="tab" data-tab="python">Python</div>
+                                <div class="tab" data-tab="cpp">C++</div>
+                            </div>
+                            <div class="code-display">
+                                <pre id="code-content" class="code-java"><code>public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+        // Welcome to coding!
+    }
+}</code></pre>
+                            </div>
+                            <div class="preview-area">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="18" cy="5" r="3"></circle>
+                                    <circle cx="6" cy="12" r="3"></circle>
+                                    <circle cx="18" cy="19" r="3"></circle>
+                                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                                </svg>
+                                <p> Lets do it </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge-outline">Features</div>
+                <h2 class="section-title">Everything You Need to Code</h2>
+                <p class="section-description">
+                    Built for developers who want to focus on coding, not configuration
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16,18 22,12 16,6"></polyline>
+                            <polyline points="8,6 2,12 8,18"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Interactive Code Editor</h3>
+                    <p class="feature-description">Write code in Java, Python, or C++ with syntax highlighting, instant feedback, and a smooth in-browser experience.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="5,3 19,12 5,21"></polygon>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">AI-Powered Guidance</h3>
+                    <p class="feature-description">The AI not only checks your solutions but explains mistakes, suggests improvements, and provides optimized approaches—even for correct answers.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Learn by Doing</h3>
+                    <p class="feature-description">Practice problems are designed to help you strengthen your understanding of algorithms and data structures through step-by-step hints and explanations.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="13,2 3,14 12,14 11,22 21,10 12,10"></polygon>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Instant Results & Optimization</h3>
+                    <p class="feature-description">See your code run immediately and get feedback on efficiency, complexity, and alternative solutions to enhance learning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Start Coding?</h2>
+                <p class="cta-description">
+                    Join us, who are already learning with our platform
+                </p>
+                <div class="cta-buttons">
+                    <button class="btn btn-outline btn-large">
+                        View Documentation
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <svg class="terminal-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="4,17 10,11 4,5"></polyline>
+                            <line x1="12" y1="19" x2="20" y2="19"></line>
+                        </svg>
+                        <span>CodeCrack</span>
+                    </div>
+                    <p class="footer-description">
+                        The minimal coding platform for modern competitive programming
+                    </p>
+                </div>
+
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Community</h4>
+                    <div class="footer-links">
+                        <a href="#">GitHub</a>
+                        <a href="#">Discord</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Support</h4>
+                    <div class="footer-links">
+                        <a href="#">Help Center</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Report Bug</a>
+                        <a href="#">Feature Request</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> CodeCrack. Built with ❤️ for programmers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
